@@ -112,8 +112,8 @@ The Kubernetes `kubelet` should be configured to use the `calico` and `calico-ip
 Download the binaries and make sure they're executable
 
 ```bash
-wget -N -P /opt/cni/bin https://github.com/projectcalico/calico-cni/releases/download/v1.5.1/calico
-wget -N -P /opt/cni/bin https://github.com/projectcalico/calico-cni/releases/download/v1.5.1/calico-ipam
+wget -N -P /opt/cni/bin https://github.com/projectcalico/calico-cni/releases/download/v1.5.2/calico
+wget -N -P /opt/cni/bin https://github.com/projectcalico/calico-cni/releases/download/v1.5.2/calico-ipam
 chmod +x /opt/cni/bin/calico /opt/cni/bin/calico-ipam
 ```
 
