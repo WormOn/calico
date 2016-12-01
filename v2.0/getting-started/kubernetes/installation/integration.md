@@ -54,7 +54,7 @@ done using the `calicoctl` utility.
 
 ```
 # Download and install `calicoctl`
-wget http://www.projectcalico.org/builds/calicoctl
+wget https://github.com/projectcalico/calico-containers/releases/download/v1.0.0-rc1/calicoctl
 sudo chmod +x calicoctl
 
 # Run the calico/node container
@@ -94,7 +94,7 @@ ExecStart=/usr/bin/docker run --net=host --privileged --name=calico-node
 -v /run/docker/plugins:/run/docker/plugins \
 -v /var/run/docker.sock:/var/run/docker.sock \
 -v /var/log/calico:/var/log/calico \
-calico/node:latest
+calico/node:v1.0.0-rc1
 Restart=always
 RestartSec=10
 
